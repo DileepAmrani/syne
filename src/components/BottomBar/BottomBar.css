@@ -1,0 +1,24 @@
+.wrapper-bottom{
+    background-color: #1D659B !important;
+    color: white !important;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.bottom-left-side{
+    float:left;
+    padding:5px !important;
+    padding-left:20px !important;
+    margin: 0 auto !important;
+
+}
+
+.bottom-right-side{
+    float: right !important;
+    padding:5px !important;
+    margin-right: 50px !important;
+    margin: 0 auto !important;
+}

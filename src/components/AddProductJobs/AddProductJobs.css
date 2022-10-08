@@ -1,0 +1,128 @@
+.quotation-top {
+  margin-top: 20px;
+}
+.quotation-top-row {
+  margin-bottom: 10px;
+}
+.Adding__Jobs__Leftside {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+
+  color: #f57e24;
+}
+.Adding__Jobs__back__btn,
+.Adding__Jobs__reset__btn,
+.Adding__Jobs__search__btn,
+.Adding__Jobs__clear__btn {
+  background-color: #f57e24 !important;
+}
+.Adding__Product__number {
+  color: black;
+  font-family: Roboto;
+
+  font-weight: bold;
+}
+.Item__List__Heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 35px;
+
+  color: #000000;
+}
+.Item__List__dropdown {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 30px;
+}
+.Item__List__dropdown__category {
+  background-color: #f3f3f3 !important;
+  min-width: 130px !important;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red !important; */
+}
+.minmax__Price {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.minmax__Price__select {
+  background-color: #f3f3f3 !important;
+}
+.minmax__Price__Head {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.minmax__Price__search {
+  margin-left: 365px;
+}
+.Add__Selected__pro__btn {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.Add__Selected__pro__btn__color {
+  background-color: #00a35d !important;
+  border-radius: 8px;
+}
+.Add__job__table__head {
+  background-color: #f57e24;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.AddPro__qty__input {
+  width: 60px;
+}
+.item-per-page-table {
+  width: 180px !important;
+}
+.quotation-check-icon {
+  width: 18px;
+  height: 18px;
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .quotation-menu {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 5%;
+  }
+
+  .quote-left-side {
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+  .table-scroll {
+    width: 350px;
+
+    overflow-x: auto;
+    overflow-y: scroll;
+  }
+  .minmax__Price__search {
+    margin-left: 0px;
+    display: grid !important;
+    grid-template-columns: 120px 20px;
+  }
+  .minmax__Price__search__input {
+    width: 120px !important;
+  }
+  .minmax__Price__search__btn {
+    height: 37px !important;
+    width: 80px !important;
+  }
+  .minmax__Price {
+    margin-top: 20px;
+  }
+}
+
